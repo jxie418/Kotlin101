@@ -8,7 +8,7 @@ fun main(args : Array<String>) {
 
     //you can also assign class object to a variable and use it later
     val m = Matador
-    println("Typeof " + m)
+    println("Typeof $m")
     m.show(espana)
 
 
@@ -19,7 +19,7 @@ class Matador(name : String) {
     private val name : String = name
 
     private fun myPrivateShow() {
-        println("This is ${name} private show")
+        println("This is $name private show")
     }
 
     companion object {

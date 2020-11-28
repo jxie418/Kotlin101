@@ -21,6 +21,6 @@ infix fun String.add(more : String) : String = this + more
 
 class HelloWorld() {
     infix fun say(more : String) : String {
-        return "Hello " + more
+        return "Hello $more"
     }
 }

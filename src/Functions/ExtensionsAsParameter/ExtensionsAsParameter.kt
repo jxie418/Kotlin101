@@ -11,10 +11,10 @@ public fun main(args : Array<String>) {
 
     //if the last parameter is a function, the function literal can be passed outside the parantheses
     //'this' is also optional in any case of extension function.
-    var typeB = configurator ({
+    var typeB = configurator {
         canSwim()
         canFly()
-    })
+    }
 
     typeB.show()
 
