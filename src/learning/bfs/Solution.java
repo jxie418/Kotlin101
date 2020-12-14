@@ -1,4 +1,4 @@
-package java.bfs;
+package learning.bfs;
 
 import java.util.*;
 
